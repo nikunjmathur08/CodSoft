@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav class="desktop-nav">
+        <div class="logo">Nikunj Mathur</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact"><button class="contact">Let's Talk.</button></a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Nikunj Mathur</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">about</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()"><button class="contact">Let's Talk.</button></a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_text">
+            <p class="section_text_p1">HEY, I'M NIKUNJ</p>
+            <p class="section_text_p2">HEY, I'M NIKUNJ</p>
+            <p class="section_text_p3">HEY, I'M NIKUNJ</p>
+        </div>
+        <div class="section_pic-container">
+            <img src="./Assets/heroImg.webp" alt="Hero Image">
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">ABOUT ME</h1>
+        <div class="section-container">
+            <div class="pic-container">
+                <img 
+                    src="./Assets/Me.jpg" 
+                    alt="Profile Picture"
+                    class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h1>A brief intro, who am I?</h1>
+                        <p>I am a tech enthusiast since middle school and love
+                            to interact with technology!
+                            <br>
+                            </br>
+                            I have set up my path to pursue the things that excite me the 
+                            most! Working on code has now become my passion 
+                            and I look forward to convert it into my profession. 
+                            <br>
+                            </br>
+                            I am currently pursuing a bachelor's degree focused on Computer 
+                            Science Engineering.
+                            Interested in Web Development, iOS Development & using AI to my advantage,
+                            I would love to be a part of a diverse team of people working on areas that
+                            are in my interest.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h1 class="title">SERVICES</h1>
+        <div class="services-details-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h1 class="my-expertise">my expertises.</h1>
+                    <div class="skills-details">
+                        <h2 class="skills">Web Development</h2>
+                        <h2 class="skills">Web Design</h2>
+                        <h2 class="skills">UI/UX Design</h2>
+                        <h2 class="tech-stack">JavaScript</h2>
+                        <h2 class="tech-stack">HTML</h2>
+                        <h2 class="tech-stack">CSS</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h1 class="title">PROJECTS</h1>
+        <div class="experience-details-container">
+            <div class="details-container-color">
+                <div class="article-container">
+                    <a href="https://github.com/dhrxvjhx/genesis1.0" target="_blank"><img src="./Assets/Project.jpeg" alt="Project Image" class="project-img"></a>
+                </div>
+                <div class="buttons">
+                    <button class="year">2024</button>
+                    <button class="button-desc">HTML • CSS • JavaScript • Solidity</button>
+                </div>
+                <h2 class="project-subtitle">ChadApp - Decentralised Chat App</h2>
+                <p class="project-desc">Blockchain • Smart Contracts</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="title">CONTACT</h1>
+        <div class="contact-containers">
+            <div class="contact-me">
+                <h3 class="have-an-awesome-idea">Have an awesome idea?<br>
+                    Let's bring it to life.
+                </h3>
+                <p class="explore-socials">Feel free to explore my socials!</p>
+            </div>
+            <div class="contact-details">
+                <div class="email">
+                    <h4 class="contact-email">Contact Details</h4>
+                    <a href="mailto:nikunjmathur0810@gmail.com" class="my-email" target="_blank">nikunjmathur0810@gmail.com</a>
+                </div>
+                <div class="digital-spaces">
+                    <h4 class="my-digital-spaces">My Digital Spaces</h4>
+                    <div class="digital-spaces-links">
+                        <img src="./Assets/github.png" alt="GitHub icon" class="github">
+                        <p><a target="_blank" href="https://github.com/nikunjmathur08" class="GitHub-txt">GitHub</a></p>
+                        <img src="./Assets/linkedin.webp" alt="LinkedIn icon" class="linkedin">
+                        <p><a target="_blank" href="https://www.linkedin.com/in/nikunjmathur08/" class="LinkedIn-txt">LinkedIn</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
